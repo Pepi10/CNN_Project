@@ -21,19 +21,16 @@
 <img src="https://img.shields.io/badge/pytorch-2.1.2-EE4C2C?style=for-the-badge&logo=Pytorch&logoColor=#EE4C2C" style="display:inline;"> <img src="https://img.shields.io/badge/torchvision-2.1.2-EE4C2C?style=for-the-badge&logo=torchvision&logoColor=#EE4C2C" style="display:inline;"> <img src="https://img.shields.io/badge/opencv_python-2.1.2-EE4C2C?style=for-the-badge&logo=opencv&logoColor=#EE4C2C" style="display:inline;"> <img src="https://img.shields.io/badge/tensorflow-2.1.2-EE4C2C?style=for-the-badge&logo=tensorflow&logoColor=#EE4C2C" style="display:inline;"> <img src="https://img.shields.io/badge/scikit_learn-1.2.2-EE4C2C?style=for-the-badge&logo=scikit-learn&logoColor=#EE4C2C" style="display:inline;">
 
 ## 📦 Data
-<table>
-  <tr>
-    <td style="text-align: center;">
-      <h3>Garbage Data</h3>
-      <img width="300" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/garbage.png">
-    </td>
-    <td style="text-align: center;">
-      <h3>Clothes Data</h3>
-      <img width="300" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/clothes.png">
-    </td>
-  </tr>
-</table>
-
+<div style="display: flex; justify-content: space-around;">
+    <div style="text-align: center;">
+        <h3>Garbage Data</h3>
+        <img width="450" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/garbage.png">
+    </div>
+    <div style="text-align: center;">
+        <h3>Clothes Data</h3>
+        <img width="450" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/clothes.png">
+    </div>
+</div>
 
 ## ⚙️ 모델 하이퍼파라미터 튜닝
 ### ✔ 사용한 모델
