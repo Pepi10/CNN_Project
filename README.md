@@ -24,11 +24,11 @@
 <div style="display: flex; justify-content: space-around;">
     <div style="text-align: center;">
         <h3>Garbage Data</h3>
-        <img width="450" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/garbage.png">
+        <img width="370" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/garbage.png">
     </div>
     <div style="text-align: center;">
         <h3>Clothes Data</h3>
-        <img width="450" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/clothes.png">
+        <img width="370" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/clothes.png">
     </div>
 </div>
 
