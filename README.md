@@ -22,11 +22,11 @@
 
 ## 📦 Data
 <div style="display: flex; justify-content: space-around;">
-    <div style="text-align: center;">
+    <div style="text-align: left;">
         <h3>Garbage Data</h3>
         <img width="300" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/garbage.png">
     </div>
-    <div style="text-align: center;">
+    <div style="text-align: right;">
         <h3>Clothes Data</h3>
         <img width="300" alt="loading..." src="https://github.com/Pepi10/CNN_Project/raw/main/assets/clothes.png">
     </div>
