@@ -1,4 +1,6 @@
-```python
+import os
+import cv2 as cv
+import numpy as np
 
 def load_lmg(img_path_list, img_list):
     train_img = list()
@@ -29,24 +31,38 @@ def load_lmg(img_path_list, img_list):
     
     return train_img, test_img
 
-    
+#### Data 불러오기 ####
 cur_dir = os.getcwd()
-img_path = "./archive02/garbage_classification/"
-label_list = os.listdir(img_path) 
-    
 
-img_path_list = list()
-img_list = list()
+# garbage data -----------------------------------------
+# 경로 설정
+garbage_path = "./data/garbage"
+garbage_label_list = os.listdir(garbage_path)
 
-for _ in label_list:
-    img_path_list.append(img_path + _)
+garbage_img_path_list = list()
+garbage_img_list = list()
 
-for _ in label_list:
-    img_list.append(os.listdir(img_path + _))
+for _ in garbage_label_list:
+    garbage_img_path_list.append(garbage_path + _)
+for _ in garbage_label_list:
+    garbage_img_list.append(os.listdir(garbage_path + _))
 
+# 함수 실행
+garbage_train_img, garbage_test_img = load_lmg(garbage_img_path_list, garbage_img_list)
 
-### 함수 실행 코드 ###
-train_img, test_img = load_lmg(img_path_list, img_list)
+# clothes data ------------------------------------------
+# 경로 설정
+clothes_path = "./data/clothes"
+clothes_label_list = os.listdir(clothes_path)  
 
+clothes_img_path_list = list()
+clothes_img_list = list()
 
-```
+for _ in clothes_label_list:
+    clothes_img_path_list.append(clothes_path + _)
+
+for _ in garbage_label_list:
+    clothes_img_list.append(os.listdir(clothes_path + _))
+
+# 함수 실행
+clothes_train_img, clothes_test_img = load_lmg(clothes_img_path_list, clothes_img_list)

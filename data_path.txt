@@ -1,3 +1,0 @@
-clothes = https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small?resource=download
-
-garbage = https://www.kaggle.com/datasets/mostafaabla/garbage-classification
